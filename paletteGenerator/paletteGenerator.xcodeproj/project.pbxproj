@@ -1,0 +1,316 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DFE28FCD1E94DD65007278A0 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE28FCC1E94DD65007278A0 /* main.swift */; };
+		DFE28FD61E94E116007278A0 /* PaletteGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE28FD51E94E116007278A0 /* PaletteGenerator.swift */; };
+		DFE28FDB1E94EAC8007278A0 /* CommandLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE28FD81E94EAC8007278A0 /* CommandLine.swift */; };
+		DFE28FDC1E94EAC8007278A0 /* Option.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE28FD91E94EAC8007278A0 /* Option.swift */; };
+		DFE28FDD1E94EAC8007278A0 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE28FDA1E94EAC8007278A0 /* StringExtensions.swift */; };
+		DFE28FE01E94EF59007278A0 /* Colour.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE28FDF1E94EF59007278A0 /* Colour.swift */; };
+		DFE28FE21E94F88F007278A0 /* Palette.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE28FE11E94F88F007278A0 /* Palette.swift */; };
+		DFE28FE41E94F8B9007278A0 /* FontStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE28FE31E94F8B9007278A0 /* FontStyle.swift */; };
+		DFE28FE71E950024007278A0 /* OutputFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE28FE61E950024007278A0 /* OutputFormatter.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DFE28FC71E94DD65007278A0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DFE28FC91E94DD65007278A0 /* paletteGenerator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = paletteGenerator; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFE28FCC1E94DD65007278A0 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		DFE28FD51E94E116007278A0 /* PaletteGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaletteGenerator.swift; sourceTree = "<group>"; };
+		DFE28FD81E94EAC8007278A0 /* CommandLine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommandLine.swift; sourceTree = "<group>"; };
+		DFE28FD91E94EAC8007278A0 /* Option.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Option.swift; sourceTree = "<group>"; };
+		DFE28FDA1E94EAC8007278A0 /* StringExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
+		DFE28FDF1E94EF59007278A0 /* Colour.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colour.swift; sourceTree = "<group>"; };
+		DFE28FE11E94F88F007278A0 /* Palette.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Palette.swift; sourceTree = "<group>"; };
+		DFE28FE31E94F8B9007278A0 /* FontStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontStyle.swift; sourceTree = "<group>"; };
+		DFE28FE61E950024007278A0 /* OutputFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OutputFormatter.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DFE28FC61E94DD65007278A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DFE28FC01E94DD65007278A0 = {
+			isa = PBXGroup;
+			children = (
+				DFE28FCB1E94DD65007278A0 /* paletteGenerator */,
+				DFE28FD71E94EA3F007278A0 /* CommandLineKit */,
+				DFE28FCA1E94DD65007278A0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DFE28FCA1E94DD65007278A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DFE28FC91E94DD65007278A0 /* paletteGenerator */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DFE28FCB1E94DD65007278A0 /* paletteGenerator */ = {
+			isa = PBXGroup;
+			children = (
+				DFE28FCC1E94DD65007278A0 /* main.swift */,
+				DFE28FD51E94E116007278A0 /* PaletteGenerator.swift */,
+				DFE28FE51E950010007278A0 /* OutputFormat */,
+				DFE28FDE1E94EF4D007278A0 /* Models */,
+			);
+			path = paletteGenerator;
+			sourceTree = "<group>";
+		};
+		DFE28FD71E94EA3F007278A0 /* CommandLineKit */ = {
+			isa = PBXGroup;
+			children = (
+				DFE28FD81E94EAC8007278A0 /* CommandLine.swift */,
+				DFE28FD91E94EAC8007278A0 /* Option.swift */,
+				DFE28FDA1E94EAC8007278A0 /* StringExtensions.swift */,
+			);
+			name = CommandLineKit;
+			path = paletteGenerator;
+			sourceTree = "<group>";
+		};
+		DFE28FDE1E94EF4D007278A0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DFE28FDF1E94EF59007278A0 /* Colour.swift */,
+				DFE28FE31E94F8B9007278A0 /* FontStyle.swift */,
+				DFE28FE11E94F88F007278A0 /* Palette.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		DFE28FE51E950010007278A0 /* OutputFormat */ = {
+			isa = PBXGroup;
+			children = (
+				DFE28FE61E950024007278A0 /* OutputFormatter.swift */,
+			);
+			name = OutputFormat;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DFE28FC81E94DD65007278A0 /* paletteGenerator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFE28FD01E94DD65007278A0 /* Build configuration list for PBXNativeTarget "paletteGenerator" */;
+			buildPhases = (
+				DFE28FC51E94DD65007278A0 /* Sources */,
+				DFE28FC61E94DD65007278A0 /* Frameworks */,
+				DFE28FC71E94DD65007278A0 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = paletteGenerator;
+			productName = paletteGenerator;
+			productReference = DFE28FC91E94DD65007278A0 /* paletteGenerator */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DFE28FC11E94DD65007278A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Luke Harries";
+				TargetAttributes = {
+					DFE28FC81E94DD65007278A0 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DFE28FC41E94DD65007278A0 /* Build configuration list for PBXProject "paletteGenerator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DFE28FC01E94DD65007278A0;
+			productRefGroup = DFE28FCA1E94DD65007278A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DFE28FC81E94DD65007278A0 /* paletteGenerator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DFE28FC51E94DD65007278A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFE28FDD1E94EAC8007278A0 /* StringExtensions.swift in Sources */,
+				DFE28FD61E94E116007278A0 /* PaletteGenerator.swift in Sources */,
+				DFE28FE41E94F8B9007278A0 /* FontStyle.swift in Sources */,
+				DFE28FCD1E94DD65007278A0 /* main.swift in Sources */,
+				DFE28FE01E94EF59007278A0 /* Colour.swift in Sources */,
+				DFE28FDC1E94EAC8007278A0 /* Option.swift in Sources */,
+				DFE28FE71E950024007278A0 /* OutputFormatter.swift in Sources */,
+				DFE28FDB1E94EAC8007278A0 /* CommandLine.swift in Sources */,
+				DFE28FE21E94F88F007278A0 /* Palette.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DFE28FCE1E94DD65007278A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DFE28FCF1E94DD65007278A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DFE28FD11E94DD65007278A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		DFE28FD21E94DD65007278A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DFE28FC41E94DD65007278A0 /* Build configuration list for PBXProject "paletteGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFE28FCE1E94DD65007278A0 /* Debug */,
+				DFE28FCF1E94DD65007278A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFE28FD01E94DD65007278A0 /* Build configuration list for PBXNativeTarget "paletteGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFE28FD11E94DD65007278A0 /* Debug */,
+				DFE28FD21E94DD65007278A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DFE28FC11E94DD65007278A0 /* Project object */;
+}
